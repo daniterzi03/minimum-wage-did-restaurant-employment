@@ -1,7 +1,7 @@
 # Minimum Wage and Restaurant Employment: Difference-in-Differences
 
 ## Overview
-This project estimates the effect of 2015Q1 state minimum-wage increases on restaurant employment using a state-level Difference-in-Differences design.
+This project estimates the effect of **2015Q1 state minimum-wage increases on restaurant employment** using a state-level Difference-in-Differences design.
 
 The analysis compares treated states with never-treated controls and then tests sensitivity to alternative counterfactual groups and weighting schemes.
 
@@ -19,8 +19,8 @@ The baseline DiD estimate is negative and statistically significant, but the eff
 The main methodological takeaway is that causal conclusions can be sensitive to the construction of the counterfactual group even when baseline pre-trend diagnostics appear reassuring.
 
 ## Repository Structure
-- `minimum_wage_did.R` — complete R analysis
-- `data/minwage_qcew_state_panel.xlsx` — state-quarter panel used in the analysis
+- `minimum_wage_did_portfolio.R` — recruiter-facing portfolio version of the empirical workflow
+- `data/README.md` — panel-data documentation
 
 ## Skills Demonstrated
 Difference-in-Differences · Event studies · Fixed effects · Cluster-robust inference · Propensity-score weighting · Robustness analysis · R
